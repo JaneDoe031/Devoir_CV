@@ -1,8 +1,31 @@
-section{
+*{
+    width: 1160px;
+    margin: auto;
     display: flex;
-    display: inline-block;
-    vertical-align: top;
     flex-direction: column;
-    justify-content: space-between;
-    align-items:flex-start;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section{
+    display: block;
+    flex-direction: column;
+}
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1160px;
 }
